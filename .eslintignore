@@ -4,3 +4,5 @@
 # Do not ignore these folders:
 !__tests__/
 !src/
+
+setup-node
