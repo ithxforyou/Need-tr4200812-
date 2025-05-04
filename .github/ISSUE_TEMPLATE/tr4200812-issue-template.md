@@ -7,16 +7,7 @@ assignees: ''
 
 ---
 
-Skip to content
-Navigation Menu
-ithxforyou
-Need-tr4200812-
-
-Code
-Issues
-1
-Pull requests
-1
+Styling with Markdown is supported on Wikipedia community 
 Discussions
 Actions
 Projects
