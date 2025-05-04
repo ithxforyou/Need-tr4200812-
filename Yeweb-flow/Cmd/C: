@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+
+description: Propose adding a new API to the public API surface
+title: "[API Proposal]: "
+labels: [api-suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We welcome API proposals! We have a process to evaluate the value and shape of new APIs. There is an overview of our process [here](https://github.com/tr4200812/runtime/blob/main/docs/project/api-review-process.md). This template will help us gather the information we need to start the review process.
+  - type: textarea
+    id: background
+    attributes:
+      label: Background and motivation
+      description: Please describe the purpose and value of the new API here.
+      placeholder: Purpose
+    validations:
+      required: true
+  - type: textarea
+    id: api-proposal
+    attributes:
+      label: API Proposal
+      description: |
+        Please provide the specific public API signature diff that you are proposing.
+
+        You may find the [Framework Design Guidelines](https://github.com/tr4200812/runtime/blob/main/docs/coding-guidelines/framework-design-guidelines-digest.md) helpful.
+      placeholder: API declaration (no method bodies)
+      value: |
+        ```csharp
+        namespace System.Collections.Generic;
+
+        public class MyFancyCollection<T> : IEnumerable<T>
+        {
+            public void Fancy(T item);
+        }
+        ```
+    validations:
+      required: true
+  - type: textarea
+    id: api-usage
+    attributes:
+      label: API Usage
+      description: |
+        Please provide code examples that highlight how the proposed API additions are meant to be consumed. This will help suggest whether the API has the right shape to be functional, performant and usable.
+      placeholder: API usage
+      value: |
+        ```csharp
+        // Fancy the value
+        var c = new MyFancyCollection<int>();
+        c.Fancy(42);
+
+        // Getting the values out
+        foreach (var v in c)
+            Console.WriteLine(v);
+        ```
+    validations:
+      required: true
+  - type: textarea
+    id: alternative-designs
+    attributes:
+      label: Alternative Designs
+      description: |
+        Please provide alternative designs. This might not be APIs; for example instead of providing new APIs an option might be to change the behavior of an existing API.
+      placeholder: Alternative designs
+    validations:
+      required: false
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks
+      description: |
+        Please mention any risks that to your knowledge the API proposal might entail, such as breaking changes, performance regressions, etc.
+      placeholder: Risks
+    validations:
+      required: falsePublish, post, upload, distribute or disseminate any inappropriate, profane, defamatory, obscene, indecent or unlawful topic, name, material or information. Upload, or otherwise make available, files that contain images, photographs, software or other material protected by intellectual property laws, including, by way of example, and not as limitation, copyright or trademark laws (or by rights of privacy or publicity) unless you own or control the rights thereto or have received all necessary consent to do the same. Use any material or information, including images or photographs, which are made available through the Services in any manner that infringes any copyright, trademark, patent, trade secret, or other proprietary right of any party. Upload files that contain viruses, Trojan horses, worms, time bombs, cancelbots, corrupted files, or any other similar software or programs that may damage the operation of another's computer or property of another. Advertise or offer to sell or buy any goods or services
