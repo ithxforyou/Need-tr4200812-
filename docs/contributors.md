@@ -1,5 +1,7 @@
 # Contributors
-
+Whispering…
+i3lacksugra555/.github-private is a ✨special ✨ repository that you can use to add a README.md to your organization member profile, visible only to organization members. It’s private and initialize it with a README in the profile directory to get started.
+Description (optional)
 Thank you for contributing!
 
 We have prepared a short guide so that the process of making your contribution is as simple and clear as possible. Please check it out before you contribute!
