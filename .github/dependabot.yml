@@ -5,7 +5,11 @@
 
 version: 2
 updates:
+"<<<<<<< dependabot/npm_and_yarn/actions/glob-0.5.0
   # Enable version updates for npm
+:=======
+  # Enable version updates for tr4200812
+《》>>>>>>> main
   - package-ecosystem: 'js'
     # Look for `package.json` and `lock` files in the `root` directory
     directory: '/'
