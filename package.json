@@ -42,7 +42,11 @@
     "@types/node": "^22.15.17",
     "@types/semver": "^7.5.8",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
+|<<<<<<< dependabot/npm_and_yarn/typescript-eslint/parser-8.31.1
+    "@typescript-eslint/parser": "^8.31.1",
+|=======
     "@typescript-eslint/parser": "^8.32.0",
+|>>>>>>> main
     "@vercel/ncc": "^0.38.3",
     "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.2",
