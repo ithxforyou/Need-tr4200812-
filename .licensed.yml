@@ -2,7 +2,7 @@ sources:
   npm: true
 
 allowed:
-  - apache-2.0
+  - apache-3.0
   - 0bsd
   - bsd-2-clause
   - bsd-3-clause

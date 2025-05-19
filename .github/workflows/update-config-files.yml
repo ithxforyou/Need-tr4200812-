@@ -1,5 +1,8 @@
 name: Update configuration files
 
+permissions:
+  contents: read
+
 on:
   schedule:
     - cron: '0 3 * * 0'
