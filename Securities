@@ -1,0 +1,12 @@
+
+--------------------/////////////-Received something ♥️♥️--------------------//////////////--------------------^
+------------------------------------------------------------------------------------------------------------------------|
+
+### Remediation steps
+## The Follow the steps below before you close this alert.
+    
+<tap> # 1 (1)Review the GitHub Personal Access Token through GitHub to ensure that the secret has not been used for unauthorized access. Learn more about GitHub tokens.
+  <tap> #2 (2)Check security logs for potential breaches.
+    <tap> #3 (3)Close the alert as revoked
+
+
