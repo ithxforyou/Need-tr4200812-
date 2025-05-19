@@ -1,3 +1,8 @@
+
+
+
+
+
 Name,Ressourcentyp,Projekt-ID,Anzeigename,Erstellungszeitpunkt,Aktualisierungszeitpunkt,Status,Ordner,Organisation,Typ des übergeordneten Assets,Vollständiger Name der übergeordneten Ressource,KMS-Schlüssel,Direkte Tags,Beschreibung,Ort,Labels,Netzwerk-Tags,Zusätzliche Attribute
 "//logging.googleapis.com/projects/68509946683/locations/global/buckets/_Default","logging.LogBucket","gen-lang-client-0774241769","_Default","null","2025-01-20T16:45:11Z","ACTIVE","[]","","cloudresourcemanager.googleapis.com/Project","//cloudresourcemanager.googleapis.com/projects/gen-lang-client-0774241769","[]","[]","Default bucket","global","{}","[]","null"
 "//serviceusage.googleapis.com/projects/68509946683/services/dataplex.googleapis.com","serviceusage.Service","gen-lang-client-0774241769","dataplex.googleapis.com","null","null","ENABLED","[]","","cloudresourcemanager.googleapis.com/Project","//cloudresourcemanager.googleapis.com/projects/gen-lang-client-0774241769","[]","[]","","global","{}","[]","null"
