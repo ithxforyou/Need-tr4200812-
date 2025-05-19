@@ -41,11 +41,16 @@
     "@types/jest": "^29.5.12",
     "@types/node": "^22.15.17",
     "@types/semver": "^7.5.8",
+|<<<<<<< revert-25-dependabot/npm_and_yarn/actions/cache-4.0.3
+    "@typescript-eslint/eslint-plugin": "^7.3.0",
+    "@typescript-eslint/parser": "^7.3.0",
+|=======
     "@typescript-eslint/eslint-plugin": "^8.31.1",
 |<<<<<<< dependabot/npm_and_yarn/typescript-eslint/parser-8.31.1
     "@typescript-eslint/parser": "^8.31.1",
 |=======
     "@typescript-eslint/parser": "^8.32.0",
+|>>>>>>> main
 |>>>>>>> main
     "@vercel/ncc": "^0.38.3",
     "eslint": "^9.22.0",

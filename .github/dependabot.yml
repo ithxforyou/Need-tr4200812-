@@ -10,14 +10,18 @@ updates:
 |=======
 "<<<<<<< dependabot/npm_and_yarn/actions/glob-0.5.0
   # Enable version updates for npm
+|<<<<<<< revert-25-dependabot/npm_and_yarn/actions/cache-4.0.3
+  - package-ecosystem: 'npm'
+|=======
 :<<<<<<< 53b4232main
 :=======
 :=======
   # Enable version updates for tr4200812
-《》>>>>>>> main
+》>>>>>>> main
 :>>>>>>> main
 |>>>>>>> alert-autofix-28
-  - package-ecosystem: 'js'
+  - package-ecosystem: 'ds'
+|>>>>>>> main
     # Look for `package.json` and `lock` files in the `root` directory
     directory: '/'
     # Check the npm registry for updates every day (weekdays)
